@@ -1,0 +1,12 @@
+{
+  "name": "docker",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.109.1"
+  }
+}
