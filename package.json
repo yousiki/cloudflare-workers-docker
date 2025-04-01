@@ -5,8 +5,7 @@
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify"
   },
-  "dependencies": {},
   "devDependencies": {
-    "wrangler": "^3.109.1"
+    "wrangler": "^3.114.3"
   }
 }
