@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       wrangler:
-        specifier: ^3.114.6
-        version: 3.114.6
+        specifier: ^3.114.7
+        version: 3.114.7
 
 packages:
 
@@ -364,8 +364,8 @@ packages:
   defu@6.1.4:
     resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
 
-  detect-libc@2.0.3:
-    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
+  detect-libc@2.0.4:
+    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
     engines: {node: '>=8'}
 
   esbuild@0.17.19:
@@ -485,8 +485,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@3.114.6:
-    resolution: {integrity: sha512-05Ov/Bg8BQEy+/x/aRTeEUiXYspCiE0wmdgg4TIQwYLeEZaoBLE6KhqxEiLd8WNea0IRpzpBQOtAZ64Tjl0znQ==}
+  wrangler@3.114.7:
+    resolution: {integrity: sha512-awyHVA9JwcEpyysh7Kn69NoIe2SwXYt8pOjNX3p/4RsOa68qtct+QbhUCwPFPyDDH9lg1VgvTjCFfFbXBLMk6w==}
     engines: {node: '>=16.17.0'}
     hasBin: true
     peerDependencies:
@@ -747,7 +747,7 @@ snapshots:
 
   defu@6.1.4: {}
 
-  detect-libc@2.0.3:
+  detect-libc@2.0.4:
     optional: true
 
   esbuild@0.17.19:
@@ -849,7 +849,7 @@ snapshots:
   sharp@0.33.5:
     dependencies:
       color: 4.2.3
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
       semver: 7.7.1
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
@@ -914,7 +914,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250408.0
       '@cloudflare/workerd-windows-64': 1.20250408.0
 
-  wrangler@3.114.6:
+  wrangler@3.114.7:
     dependencies:
       '@cloudflare/kv-asset-handler': 0.3.4
       '@cloudflare/unenv-preset': 2.0.2(unenv@2.0.0-rc.14)(workerd@1.20250408.0)
